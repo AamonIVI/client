@@ -1,0 +1,29 @@
+/* Footer.css */
+
+.footer {
+    display: flex;
+    width:auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e8e8e8;
+    font-size: 14px;
+  }
+  
+  .footer .contacts,
+  .footer .phone-numbers,
+  .footer .social-media {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer .social-media a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .footer .social-media a:hover {
+    text-decoration: underline;
+  }
+  

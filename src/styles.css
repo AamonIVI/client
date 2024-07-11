@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f8f8;
+  }
+  
+  header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .logo img {
+    height: 40px;
+    margin-right: 1rem;
+  }
+  
+  header .search-bar {
+    flex-grow: 1;
+    margin: 0 1rem;
+  }
+  
+  header .search-bar input {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f8f8f8;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+  
+  .buttons a {
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #ddd;
+    text-align: center;
+    width: calc(25% - 1rem);
+    text-decoration: none;
+  }
+  
+  .news-list {
+    width: 60%;
+  }
+  
+  .document-counter,
+  .purchase-button {
+    width: 35%;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  

@@ -1,0 +1,184 @@
+/* HomePage.css */
+
+.home-page {
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: rgb(244, 244, 244);
+    display: block;
+    column-count: 1;
+    flex-direction: column;
+  }
+  
+  .home-page .buttons {
+    position: relative;
+    width: 70%;
+    top: 15%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    display: block;
+    column-count: 4;
+    column-gap: 0em;
+    justify-content: center;
+  }
+  
+  .home-page .buttons .button1 {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 18px;
+    background: rgb(35,22,66);
+    background: linear-gradient(0deg, rgba(35,22,66,1) 0%, rgba(63,45,107,1) 100%);
+    border: transparent;
+    background-size: 100% 100%;
+    height: 82px;
+    position: relative;
+    width: 100%;
+  }
+  .home-page .buttons .button2 {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 18px;
+    background: rgb(67,51,116);
+    background: linear-gradient(0deg, rgba(67,51,116,1) 0%, rgba(94,72,154,1) 100%);
+    border: transparent;
+    background-size: 100% 100%;
+    height: 82px;
+    position: relative;
+    width: 100%;
+  }
+  .home-page .buttons .button3 {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 18px;
+    background: rgb(43,68,195);
+    background: linear-gradient(0deg, rgba(43,68,195,1) 0%, rgba(36,103,194,1) 100%);
+    border: transparent;
+    background-size: 100% 100%;
+    height: 82px;
+    position: relative;
+    width: 100%;
+  }
+  .home-page .buttons .button4 {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 18px;
+    background: rgb(33,111,194);
+    background: linear-gradient(0deg, rgba(33,111,194,1) 0%, rgba(24,147,191,1) 100%);
+    border: transparent;
+    background-size: 100% 100%;
+    height: 82px;
+    position: relative;
+    width: 100%;
+  }
+  .home-page .buttons .button5 {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 18px;
+    background: rgb(184,119,25);
+    background: linear-gradient(0deg, rgba(184,119,25,1) 0%, rgba(197,143,37,1) 100%);
+    border: transparent;
+    background-size: 100% 100%;
+    height: 82px;
+    position: relative;
+    width: 100%;
+  }
+  .home-page .buttons .button6 {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 18px;
+    background: rgb(201,151,40);
+    background: linear-gradient(0deg, rgba(201,151,40,1) 0%, rgba(215,180,54,1) 100%);
+    border: transparent;
+    background-size: 100% 100%;
+    height: 82px;
+    position: relative;
+    width: 100%;
+  }
+  .home-page .buttons .button7 {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 18px;
+    background: rgb(72,68,83);
+    background: linear-gradient(0deg, rgba(72,68,83,1) 0%, rgba(118,114,129,1) 100%);
+    border: transparent;
+    background-size: 100% 100%;
+    height: 82px;
+    position: relative;
+    width: 100%;
+  }
+  .home-page .buttons .button8 {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 18px;
+    background: rgb(129,124,144);
+    background: linear-gradient(0deg, rgba(129,124,144,1) 0%, rgba(171,167,184,1) 100%);
+    border: transparent;
+    background-size: 100% 100%;
+    height: 82px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .home-page .news {
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: block;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .home-page .news h2 {
+    font-size: 45px;
+    position: relative;
+    right: -20px;
+  }
+  
+  .home-page .news .news-item {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .home-page .news .news-item h3 {
+    margin: 10px;
+    font-size: 18px;
+  }
+  
+  .home-page .news .news-item p {
+    margin: 5px 0;
+    text-align: left;
+    height: auto;
+  }
+  
+  .home-page .document-counter {
+    text-align: left;
+    right: 0%;
+    top:60%;
+    margin-top: 20px;
+    font-size: 30px;
+    position:absolute;
+    border-color: black;
+    background-color: white;
+    width: 270px;
+  }
+  
+  .home-page .buy-access {
+    text-align: left;
+    right: 0%;
+    top:70%;
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(0, 114, 179);
+    position: absolute;
+    border-color: black;
+    background-color: white;
+    width: 270px;
+  }
+  
+  .home-page .buy-access:hover {
+    background-color: #898989;
+  }
+  

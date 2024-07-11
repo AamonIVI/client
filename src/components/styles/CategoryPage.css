@@ -1,0 +1,49 @@
+/* CategoryPage.css */
+
+.category-page {
+    text-align: center;
+    width:80%;
+    margin: 0 auto;
+    justify-content: start;
+    background-color: rgb(251, 251, 251);
+    position: relative;
+  }
+  .category-page .h1{
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+  }
+  
+  .category-page .categories {
+    justify-content: top;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 95%;
+    position: absolute;
+    top: 12%;
+    left: 0px;
+  }
+  
+  .category-page .categories a {
+    display: block;
+    justify-content: center;
+    padding: 15px;
+    background-color: #ffffff;
+    cursor: default;
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: left;
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 30px;
+  }
+  
+  .category-page .categories a:hover {
+    background-color: #61d5ff;
+  }
+  

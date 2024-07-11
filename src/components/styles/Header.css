@@ -1,0 +1,91 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  width:auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 30px;
+  background-color: #e8e8e8;
+}
+
+.header .logo {
+  left: 1.3%;
+  top: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header .logo .logo_pic {
+  background-image: url('./pics/logo.png');
+  background-size: 100% 100%;
+  margin-right: 10px;
+  background-size: 100% 100%;
+  height: 75px;
+  object-fit: cover;
+  position: relative;
+  width: 70px;
+}
+
+.header .logo span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header .login-button {
+  color: #ffffff;
+  font-family: "Gilroy-Light", Helvetica;
+  font-size: 24px;
+  right: 1.3%;
+  top: 40px;
+  position: absolute;
+  background-color: #85bcd1;
+  border-radius: 10px;
+  border-color: transparent;
+  height: 51px;
+  position: absolute;
+  width: 297px;
+}
+
+.header .login-button:hover {
+  background-color: #25ffde;
+}
+
+.header .search-bar {
+  background-color: #094e68;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  top: 50px;
+  height: 40px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.header .search-bar .input {
+  border-radius: 10px;
+  width: 92%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.header .search-button {
+  border-radius: 10px;
+  color: #f7f7f7;
+  font-family: "Gilroy-Light", Helvetica;
+  font-size: 18px;
+  background-color: #094e68;
+  border: transparent;
+  height: 40px;
+  right: 5px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 6%;
+}

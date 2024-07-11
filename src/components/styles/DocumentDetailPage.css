@@ -1,0 +1,57 @@
+/* DocumentDetailPage.css */
+
+.document-detail-page {
+    text-align: center;
+    width:1500px;
+    height: 1000px;
+    margin: 0 auto;
+    justify-content: start;
+    background-color: rgb(251, 251, 251);
+    position: relative;
+  }
+  
+  .document-detail-page h1 {
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    top: -450px;
+    left: 120px;
+    margin: 0 auto;
+  }
+  
+  .document-detail-page a {
+    display: block;
+    justify-content: center;
+    top: -10px;
+    
+    padding: 15px;
+    background-color: rgb(251, 251, 251);
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: left;
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 30px;
+  }
+  
+  .document-detail-page a:hover {
+    background-color: #7df9ff;
+  }
+  
+  .document-detail-page p {
+    display: block;
+    justify-content: center;
+    top: -10px;
+    
+    padding: 15px;
+    background-color: rgb(251, 251, 251);
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: left;
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 30px;
+  }
+  

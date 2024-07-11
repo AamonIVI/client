@@ -1,0 +1,52 @@
+/* DocumentPage.css */
+
+.document-page {
+  text-align: center;
+  width:80%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: start;
+  background-color: rgb(251, 251, 251);
+  position: relative;
+}
+
+.document-page .h1{
+  justify-content: top;
+  display: flex;
+  position: absolute;
+  font-size:50px;
+  top: 0%;
+  left: 35%;
+
+}
+
+  
+  .document-page .documents {
+    justify-content: top;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 95%;
+    position: absolute;
+    top: 12%;
+    left: 0%;
+  }
+  
+  .document-page .documents a {
+    display: block;
+    justify-content: center;
+    padding: 15px;
+    background-color: #ffffff;
+    cursor: default;
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: left;
+    font-family: "Gilroy-Light", Helvetica;
+    font-size: 30px;
+  }
+  
+  .document-page .documents a:hover {
+    background-color: #7df9ff;
+  }
+  
